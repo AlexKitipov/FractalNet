@@ -26,3 +26,6 @@ git clone https://github.com/AlexKitipov/FractalNet.git
 cd FractalNet
 pip install -r requirements.txt
 python train.py --dataset cifar10
+!git clone https://github.com/AlexKitipov/FractalNet.git
+%cd FractalNet
+!pip install -r requirements.txt
