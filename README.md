@@ -1,6 +1,9 @@
 # FractalNet
 FractalNet е библиотека за фрактални невронни мрежи, вдъхновена от рекурсивни структури и поетична архитектура. Версията включва стабилна имплементация, визуализация и адаптивен класификатор. Създадена за обучение, експерименти и разширение.
 
+[![Отвори в Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zsUmQVgueaismIkvuNA3ST3GmC8zIvvP#scrollTo=BOnxZVu0EbOV)
+
+
 🔮 Бъдещо развитие
 FractalNet е само началото на една по-голяма легенда. Предстои:
 
