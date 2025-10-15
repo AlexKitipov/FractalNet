@@ -34,3 +34,6 @@ jobs:
       - name: Publish to PyPI
         uses: pypa/gh-action-pypi-publish@v1.8.10
 
+git add .github/workflows/publish.yml
+git commit -m "Добавен publish.yml за автоматично качване в PyPI"
+git push origin main
