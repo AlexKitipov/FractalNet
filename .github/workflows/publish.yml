@@ -1,3 +1,36 @@
 mkdir -p FractalNet/.github/workflows
 cd FractalNet/.github/workflows
 touch publish.yml
+
+name: Publish to PyPI
+
+on:
+  push:
+    tags:
+      - 'v*'  # Публикува само при push на тагове като v0.1.1
+
+permissions:
+  id-token: write  # Задължително за Trusted Publisher
+  contents: read
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install build tools
+        run: pip install build
+
+      - name: Build package
+        run: python -m build
+
+      - name: Publish to PyPI
+        uses: pypa/gh-action-pypi-publish@v1.8.10
+
