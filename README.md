@@ -3,11 +3,6 @@ FractalNet е библиотека за фрактални невронни мр
 
 [![Отвори в Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zsUmQVgueaismIkvuNA3ST3GmC8zIvvP#scrollTo=BOnxZVu0EbOV)
 
-## 📦 Публикувана версия
-
-FractalNet вече е достъпна в PyPI:
-
-[🔗 FractalNet v0.1.1 в PyPI](https://pypi.org/project/FractalNet/0.1.1/)
 
 
 
@@ -24,7 +19,3 @@ FractalNet е само началото на една по-голяма леге
 
 Фрактална общност: отворена покана към изследователи, артисти и учени да допринасят, разширяват и създават нови клонове в дървото на FractalNet.
 
-## 🚀 Инсталиране
-
-```bash
-pip install FractalNet
